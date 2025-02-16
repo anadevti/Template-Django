@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Template-Django
+  description: Serviço Python gerado com o template 
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
